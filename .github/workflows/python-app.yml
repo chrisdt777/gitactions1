@@ -28,4 +28,5 @@ jobs:
 
     - name: Test with pytest
       run: |
-        pytest project1
+        python -m pytest project1
+
